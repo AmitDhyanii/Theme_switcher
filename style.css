@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #ffffff;
+}
+
+.hero{
+    background-color: var(--primary-color);
+    transition: all 700ms ease-in-out;
+}
+
+.lawless{
+    height: 60px;
+    width: 160px;
+    margin-left: 80px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+#moon{
+    height: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    color: var(--secondary-color);
+}
+
+li{
+    margin: 30px;
+    cursor: pointer;
+}
+
+.info{
+    height: 54vh;
+}
+
+h1{
+    margin: 180px 50px 0 85px;
+    color: var(--secondary-color);
+}
+
+span{
+    color: rgb(255, 102, 0);
+}
+
+p{
+    margin: 20px 50px 25px 85px;
+    color: var(--secondary-color);
+}
+
+a{
+    margin: 20px 50px 0 85px;
+    padding: 6px 12px;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
